@@ -105,16 +105,16 @@ Log in to JumpCloud as an Administrator --> go to SSO  --> press + to add an app
 - IdP URL: `https://sso.jumpcloud.com/saml2/saml2`
 
 
-#### User Groups:
+#### User Groups
 
 - Add a group of users that will get access to the app. 
 
 
-#### Activate the app:
+#### Activate the app
 
   - Click **activate** to save and activate the connector.
   
-#### Certificate:
+#### Certificate
 
 - Download the public certificate and private key pair `<cert>.pem`
 
@@ -130,17 +130,17 @@ Log in to JumpCloud as an Administrator --> go to SSO  --> press + to add an app
 
 
 
-## Check the application:
+## Check the application
 
 ---
 
-#### Run the application:
+#### Run the application
 
 ```shell
 (.venv) ~/saml_service_provider $ python3 manage.py runserver
 ```
 
-#### Access the application:
+#### Access the application
 
 - Access the login page the app in the browser:
 
