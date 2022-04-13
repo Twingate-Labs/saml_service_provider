@@ -42,7 +42,7 @@
     ~/saml_service_provider $ pyenv local 3.10.1
     ```
 
-- Create and activate new virtual env.
+- Create and activate new virtual env
 
     ```
     ~/saml_service_provider $ python3 -m venv .venv
