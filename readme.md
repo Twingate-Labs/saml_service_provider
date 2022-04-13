@@ -30,14 +30,14 @@
 
 ---
 
-- Clone the repository:
+- Clone the repository
 
    ```sh
    ~ $ git clone git@github.com:inbalzelinger/saml_service_provider.git
    ~ $ cd saml_service_provider
    ```
 
-- Set the local Python interpreter: 
+- Set the local Python interpreter
     ```
     ~/saml_service_provider $ pyenv local 3.10.1
     ```
@@ -49,7 +49,7 @@
     ~/saml_service_provider $ source .venv/bin/activate
     ```
 
-- Install dependencies: 
+- Install dependencies
    ```
    (.venv) ~/saml_service_provider $ poetry install
    ```
@@ -142,7 +142,7 @@ Log in to JumpCloud as an Administrator --> go to SSO  --> press + to add an app
 
 #### Access the application
 
-- Access the login page the app in the browser:
+- Access the login page the app in the browser
 
   [http://localhost:8000/saml2/login](http://localhost:8000/saml2/login)
 
