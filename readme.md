@@ -1,7 +1,5 @@
 ##Installation
-
-
----
+***
 
 ### Python
 
@@ -28,8 +26,7 @@
 
 
 ##Setting up
-
----
+***
 
 - Clone the repository:
 
@@ -57,8 +54,9 @@
 
 
 ## Create SSO app on JumpCloud:
+***
 
----
+
 - Log in to JumpCloud as an Administrator --> go to SSO  --> press + to add an application --> chose custom SAML App
 
 #### General Info:
