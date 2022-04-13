@@ -96,13 +96,13 @@ Log in to JumpCloud as an Administrator --> go to SSO  --> press + to add an app
 - Default RelayState: keep empty
 
     
-- Login Url: `http://127.0.0.1:8000/saml2/login` 
+- Login URL: `http://127.0.0.1:8000/saml2/login` 
 
     
 - Declare Redirect Endpoint: keep unmarked
 
     
-- Idp Url: `https://sso.jumpcloud.com/saml2/saml2`
+- IdP URL: `https://sso.jumpcloud.com/saml2/saml2`
 
 
 #### User Groups:
