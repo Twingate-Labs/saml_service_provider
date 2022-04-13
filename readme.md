@@ -26,7 +26,7 @@
   ```
 
 
-## Setting up:
+## Setting up
 
 ---
 
@@ -55,30 +55,30 @@
    ```
 
 
-## Create SSO app on JumpCloud:
+## Create SSO app on JumpCloud
 ***
 
 
 Log in to JumpCloud as an Administrator --> go to SSO  --> press + to add an application --> chose custom SAML App
 
-#### General Info:
+#### General Info
 
 - Display label: `Sample_app`
 
 
 - You can choose Logo and write a description
 
-#### SSO:
+#### SSO
 
-- Idp Entity Id:  `jumpcloud/twingate/sample-sp`
+- IdP Entity ID:  `jumpcloud/twingate/sample-sp`
 
 
-- Sp Entity Id: `http://localhost:8000/sample_sp`
+- SP Entity ID: `http://localhost:8000/sample_sp`
 
 
   **Note**: Those entity ids could be any string, but usually we will set then to an url.
 
-- Acs Url: `http://127.0.0.1:8000/saml2/acs/`
+- ACS URL: `http://127.0.0.1:8000/saml2/acs/`
 
     
 - SAMLSubject's NameID: `email`
@@ -87,7 +87,7 @@ Log in to JumpCloud as an Administrator --> go to SSO  --> press + to add an app
 - SAMLSubject's NameID Format: `urn:oasis:names:tc:SAML:1.0:nameid-format-unspecified`
 
     
-- Signature Algorithem: `RSA-SHA256`
+- Signature Algorithm: `RSA-SHA256`
 
     
 - Sign assertion: keep unmarked
