@@ -26,8 +26,9 @@
   ```
 
 
-##Setting up
-***
+## Setting up:
+
+---
 
 - Clone the repository:
 
