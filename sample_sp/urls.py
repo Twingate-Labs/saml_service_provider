@@ -16,7 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from sample_sp.views import login, assertion_consumer_service
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include("apps.service_provider.urls")),
+    path("saml2/login/", login, name="login"),
+    path("saml2/acs/", assertion_consumer_service, name="acs"),
 ]
